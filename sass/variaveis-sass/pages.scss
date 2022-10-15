@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:$color_fonts;
+}
+body{
+   background-image: url(../../imagens/backgroundLp.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+.container{
+    padding: 15px;
+        width: 480px;
+    background-color: $background_color;
+    border-radius: 15px;
+    .img{
+        margin: 0 auto;
+        width: 180px;
+    }
+    .send{
+        text-align: center;
+    }
+
+        .btn:hover{
+         background-color: $color_button;
+        }
+}

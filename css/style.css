@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+body {
+  background-image: url(../../imagens/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  padding: 15px;
+  width: 480px;
+  background-color: rgba(34, 35, 61, 0.9450980392);
+  border-radius: 15px;
+}
+.container .img {
+  margin: 0 auto;
+  width: 180px;
+}
+.container .send {
+  text-align: center;
+}
+.container .btn:hover {
+  background-color: #8d0c0c;
+}
+
+/*# sourceMappingURL=style.css.map */
